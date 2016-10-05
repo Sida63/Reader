@@ -1,0 +1,144 @@
+brightnesslabel:
+§Á§â§Ü§à§ã§ä§î
+contrastlabel:
+§¬§à§ß§ä§â§Ñ§ã§ä
+saturationlabel:
+§¯§Ñ§ã§í§ë§Ö§ß§Ú§Ö
+selectlanguagelabel:
+§Á§Ù§í§Ü
+Languagefinishbtn:
+§©§Ñ§Ü§à§ß§é§Ú§ä§î
+Controlzoneentitysizelable:
+§²§Ñ§Ù§Þ§Ö§â
+controlradiobtn:
+§¬§à§ß§ä§â§à§Ý§î
+testtradiobtn:
+§´§Ö§ã§ä
+contorlzoneentityfinsihbtn:
+§©§Ñ§Ü§à§ß§é§Ú§ä§î
+fileToolStripMenuItem:
+§¶§Ñ§Û§Ý
+loadImageToolStripMenuItem:
+§©§Ñ§Ô§â§å§Ù§Ú§ä§î §ã§ß§Ú§Þ§à§Ü
+createQRcodeToolStripMenuItem:
+§³§à§Ù§Õ§Ñ§ä§î QR-§Ü§à§Õ§Ñ
+analyseQRcodeToolStripMenuItem:
+§³§é§Ú§ä§Ñ§ä§î QR-§Ü§à§Õ§Ñ
+exitToolStripMenuItem:
+§£§í§ç§à§Õ
+settingToolStripMenuItem:
+§¯§Ñ§ã§ä§â§à§Û§Ü§Ú
+methodToolStripMenuItem:
+§®§Ö§ä§à§Õ
+addMethodToolStripMenuItem:
+§¥§à§Ò§Ñ§Ó§î §®§Ö§ä§à§Õ
+languageToolStripMenuItem:
+§Á§Ù§í§Ü
+chooseLanguageToolStripMenuItem:
+§£§í§Ò§Ö§â§Ú§ä§Ö §Á§Ù§í§Ü
+patientfilelab:
+§¯§à§Þ§Ö§â §¬§Ñ§â§ä§à§é§Ü§Ú §±§Ñ§è§Ú§Ö§ß§ä§Ñ
+lastnamelab:
+§¶§Ñ§Þ§Ú§Ý§Ú§ñ
+middlenamelab:
+§£§ä§à§â§à§Ö §ª§Þ§ñ
+firstnamelab:
+§ª§Þ§ñ
+diagnosislab:
+§¥§Ú§Ñ§Ô§ß§à§ã§ä§Ú§Ü§Ñ
+assaydatelab:
+§¥§Ñ§ä§Ñ §¡§ß§Ñ§Ý§Ú§Ù§Ñ
+Testnamelabel:
+§¯§Ñ§Ù§Ó§Ñ§ß§Ú§Ö §ª§ã§á§í§ä§Ñ§ß§Ú§ñ
+dataofbirthdaylab:
+§¥§Ñ§ä§Ñ §²§à§Ø§Õ§Ö§ß§Ú§ñ
+lotlab:
+§­§à§ä §¯§à§Þ§Ö§â
+idlab:
+§°§Ò§â§Ñ§Ù§Ö§è §¯§à§Þ§Ö§â
+sentbylab:
+§­§Ö§é§Ñ§ë§Ú§Û §Ó§â§Ñ§é
+genderlab:
+§±§à§Ý
+maleradiobtn:
+§®§å§Ø§ã§Ü§à§Û
+femaleradiobtn:
+§¨§Ö§ß§ã§Ü§Ú§Û
+Operatorlab:
+§°§á§Ö§â§Ñ§ä§à§â
+Testcodelabel:
+§´§Ö§ã§ä §Ü§à§Õ
+measurementbtn:
+§³§Ü§Ñ§ß§Ú§â§à§Ó§Ñ§ä§î
+methodnamelab:
+§®§Ö§ä§à§Õ
+Paramaternumberlabel:
+§¬§à§Ý§Ú§é§Ö§ã§ä§Ó§à §±§Ñ§â§Ñ§Þ§Ö§ä§â§à§Ó
+namelab:
+§ª§Þ§Ö§ß§Ñ §±§Ñ§â§Ñ§Þ§Ö§ä§â§à§Ó
+cancelbtn:
+§°§ä§Þ§Ö§ß§Ñ
+nextbtn:
+§³§Ý§Ö§Õ§å§ð§ë§Ú§Û
+savebtn:
+§³§Ý§Ö§Õ§å§ð§ë§Ú§Û
+Methodsettingentitynamelab:
+§¯§Ñ§Ú§Þ§Ö§ß§à§Ó§Ñ§ß§Ú§Ö §±§Ñ§â§Ñ§Þ§Ö§ä§â§Ñ
+cvaluelinelab:
+§´§Ú§á §´§Ö§ã§ä§Ñ
+valuelab:
+§±§â§Ö§Õ§Ö§Ý §¹§Ñ§ß§Õ§â§Ñ§ã§Ö§Ü§Ñ§â§Ñ
+Methodsettingentityfromlabel:
+§ª§Ù
+Methodsettingentitytolabel:
+§¥§à
+saveresultvalue:
+§³§à§ç§â§Ñ§ß§Ú§ä§î
+deleteresultvalue:
+§µ§Õ§Ñ§Ý§Ú§ä§î
+shutertimelab:
+§³§â§Ö§Õ§ß§Ú§Û
+Readytimelab:
+§ª§ß§Ü§å§Ò§Ñ§è§Ú§à§ß§ß§í§Û §£§â§Ö§Þ§ñ
+settingtoolStripMenuItem:
+§µ§ã§ä§Ñ§ß§à§Ó§Ü§Ú
+sourceSettingToolStripMenuItem:
+§¬§Ñ§Þ§Ö§â§Ñ §ª§ã§ä§à§é§ß§Ú§Ü
+cameraToolStripMenuItem:
+§µ§ã§ä§Ñ§ß§à§Ó§Ü§Ú §¬§Ñ§Þ§Ö§â§í
+sensitiveSettingToolStripMenuItem:
+§³§Ú§Ô§ß§Ñ§Ý-§º§å§Þ
+shutter:
+§©§Ñ§Ò§â§Ñ§ä§î §¬§Ñ§â§ä§Ú§ß§Ü§å
+setzonebtn:
+§µ§ã§ä§Ñ§ß§à§Ó§Ü§Ú §©§à§ß§í §³§ß§Ú§Þ§Ü§Ñ
+settingdetectsectoindeletebtn:
+§µ§Õ§Ñ§Ý§Ú§ä§î §±§à§ã§Ý§Ö§Õ§ß§Ö§Ö
+setttingdetectsectiondeleteallbtn:
+§µ§Ò§â§Ñ§ä§î §£§ã§Ö
+upbtn:
+§£§Ó§Ö§â§ç
+leftbtn:
+§£§Ý§Ö§Ó§à
+downbtn:
+§£§ß§Ú§Ù
+rightbtn:
+§£§á§â§Ñ§Ó§à
+settingdetectsectionneededlabel:
+§¬§à§Ý§Ú§é§Ö§ã§ä§Ó§à §©§à§ß
+save:
+§³§à§ç§â§Ñ§ß§Ú§ä§î
+Settingsensitiveinputsensitivelabel:
+§³§Ú§Ô§ß§Ñ§Ý-§º§å§Þ
+Settingsensitivetestbtn:
+§©§Ñ§á§å§ã§ä§Ú§ä§î
+Settingsensitivefinishbtn:
+§±§à§Õ§ä§Ó§Ö§â§Õ§Ú§ä§î
+Videoinputlabel:
+§¬§Ñ§Þ§Ö§â§Ñ §ª§ã§ä§à§é§ß§Ú§Ü
+resolutionlabel:
+§²§Ñ§Ù§â§Ö§ê§Ñ§ð§ë§Ñ§ñ §³§á§à§ã§à§Ò§ß§à§ã§ä§î
+SettingsensitiveIncreasevaluebtn:
+§µ§Ó§Ö§Ý§Ú§é§Ú§ä§î
+Settingsensitivedecreasebtn:
+§µ§Þ§Ö§ß§î§ê§Ú§ä§î

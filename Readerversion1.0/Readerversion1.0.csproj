@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2A33D349-76D8-49F0-9F58-0478716BF2D0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Readerversion1._0</RootNamespace>
+    <AssemblyName>Readerversion1.0</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AForge">
+      <HintPath>..\..\Camera\Camera\bin\x86\Debug\AForge.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Controls">
+      <HintPath>..\..\Camera\Camera\bin\x86\Debug\AForge.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Fuzzy">
+      <HintPath>..\..\Camera\Camera\bin\x86\Debug\AForge.Fuzzy.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Genetic">
+      <HintPath>..\..\Camera\Camera\bin\x86\Debug\AForge.Genetic.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Imaging">
+      <HintPath>..\..\Camera\Camera\bin\x86\Debug\AForge.Imaging.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Imaging.Formats">
+      <HintPath>..\..\Camera\Camera\bin\x86\Debug\AForge.Imaging.Formats.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Imaging.IPPrototyper">
+      <HintPath>..\..\Camera\Camera\bin\x86\Debug\AForge.Imaging.IPPrototyper.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.MachineLearning">
+      <HintPath>..\..\Camera\Camera\bin\x86\Debug\AForge.MachineLearning.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Math">
+      <HintPath>..\..\Camera\Camera\bin\x86\Debug\AForge.Math.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Neuro">
+      <HintPath>..\..\Camera\Camera\bin\x86\Debug\AForge.Neuro.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Robotics.Lego">
+      <HintPath>..\..\Camera\Camera\bin\x86\Debug\AForge.Robotics.Lego.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Robotics.Surveyor">
+      <HintPath>..\..\Camera\Camera\bin\x86\Debug\AForge.Robotics.Surveyor.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Robotics.TeRK">
+      <HintPath>..\..\Camera\Camera\bin\x86\Debug\AForge.Robotics.TeRK.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video">
+      <HintPath>..\..\Camera\Camera\bin\x86\Debug\AForge.Video.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.DirectShow">
+      <HintPath>..\..\Camera\Camera\bin\x86\Debug\AForge.Video.DirectShow.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.FFMPEG">
+      <HintPath>..\..\Camera\Camera\bin\x86\Debug\AForge.Video.FFMPEG.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.Kinect">
+      <HintPath>..\..\Camera\Camera\bin\x86\Debug\AForge.Video.Kinect.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.VFW">
+      <HintPath>..\..\Camera\Camera\bin\x86\Debug\AForge.Video.VFW.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.Ximea">
+      <HintPath>..\..\Camera\Camera\bin\x86\Debug\AForge.Video.Ximea.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Vision">
+      <HintPath>..\..\Camera\Camera\bin\x86\Debug\AForge.Vision.dll</HintPath>
+    </Reference>
+    <Reference Include="LibUsbDotNet">
+      <HintPath>C:\Users\zsd\Desktop\LibUsbDotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\x86\Debug\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Web.v20, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="zxing">
+      <HintPath>..\..\Camera\Camera\bin\Debug\zxing.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Addparamater.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Addparamater.Designer.cs">
+      <DependentUpon>Addparamater.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Addparamaterimagsetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Addparamaterimagsetting.Designer.cs">
+      <DependentUpon>Addparamaterimagsetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cameraandsourcesetting.cs" />
+    <Compile Include="Camerasetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Camerasetting.Designer.cs">
+      <DependentUpon>Camerasetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chartform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chartform.Designer.cs">
+      <DependentUpon>Chartform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chooselanguage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chooselanguage.Designer.cs">
+      <DependentUpon>Chooselanguage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controlzoneentity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controlzoneentity.Designer.cs">
+      <DependentUpon>Controlzoneentity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Databaseoperator.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImageProcessing.cs" />
+    <Compile Include="ImageSampleEntity.cs" />
+    <Compile Include="Method.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Method.Designer.cs">
+      <DependentUpon>Method.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MethodEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MethodEdit.Designer.cs">
+      <DependentUpon>MethodEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MethodEntity.cs" />
+    <Compile Include="MethodNext.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MethodNext.Designer.cs">
+      <DependentUpon>MethodNext.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MethodSettingEntity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MethodSettingEntity.Designer.cs">
+      <DependentUpon>MethodSettingEntity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Noticeform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Noticeform.Designer.cs">
+      <DependentUpon>Noticeform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pointentity.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResultEntity.cs" />
+    <Compile Include="Setcontrolzone.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Setcontrolzone.Designer.cs">
+      <DependentUpon>Setcontrolzone.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settingdetectsection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settingdetectsection.Designer.cs">
+      <DependentUpon>Settingdetectsection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settingentity.cs" />
+    <Compile Include="Settingimagedetection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settingimagedetection.Designer.cs">
+      <DependentUpon>Settingimagedetection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settingimageentity.cs" />
+    <Compile Include="Settingsensitive.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settingsensitive.Designer.cs">
+      <DependentUpon>Settingsensitive.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setzoneentity.cs" />
+    <Compile Include="Sourcechoose.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sourcechoose.Designer.cs">
+      <DependentUpon>Sourcechoose.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Testdata.cs" />
+    <Compile Include="TestlineSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestlineSetting.Designer.cs">
+      <DependentUpon>TestlineSetting.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Addparamater.resx">
+      <DependentUpon>Addparamater.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Addparamaterimagsetting.resx">
+      <DependentUpon>Addparamaterimagsetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Camerasetting.resx">
+      <DependentUpon>Camerasetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chartform.resx">
+      <DependentUpon>Chartform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chooselanguage.resx">
+      <DependentUpon>Chooselanguage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controlzoneentity.resx">
+      <DependentUpon>Controlzoneentity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Method.resx">
+      <DependentUpon>Method.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MethodEdit.resx">
+      <DependentUpon>MethodEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MethodNext.resx">
+      <DependentUpon>MethodNext.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MethodSettingEntity.resx">
+      <DependentUpon>MethodSettingEntity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Noticeform.resx">
+      <DependentUpon>Noticeform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Setcontrolzone.resx">
+      <DependentUpon>Setcontrolzone.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settingdetectsection.resx">
+      <DependentUpon>Settingdetectsection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settingimagedetection.resx">
+      <DependentUpon>Settingimagedetection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settingsensitive.resx">
+      <DependentUpon>Settingsensitive.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sourcechoose.resx">
+      <DependentUpon>Sourcechoose.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestlineSetting.resx">
+      <DependentUpon>TestlineSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

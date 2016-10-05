@@ -1,0 +1,144 @@
+brightnesslabel:
+Luminosit¨¤
+contrastlabel:
+Contrasto
+saturationlabel:
+Saturazione
+selectlanguagelabel:
+Lingua
+Languagefinishbtn:
+Finire
+Controlzoneentitysizelable:
+Dimensione
+controlradiobtn:
+Controllo
+testtradiobtn:
+Test
+contorlzoneentityfinsihbtn:
+Finire
+fileToolStripMenuItem:
+File
+loadImageToolStripMenuItem:
+Carica Immagine
+createQRcodeToolStripMenuItem:
+Crea Codice QR
+analyseQRcodeToolStripMenuItem:
+Leggere Codice QR
+exitToolStripMenuItem:
+Uscire
+settingToolStripMenuItem:
+Impostazioni
+methodToolStripMenuItem:
+Metodo
+addMethodToolStripMenuItem:
+Aggiungere un Metodo
+languageToolStripMenuItem:
+Lingua
+chooseLanguageToolStripMenuItem:
+Scegli La Lingua
+patientfilelab:
+Cod Cliente
+lastnamelab:
+Cognome
+middlenamelab:
+Secondo Nome
+firstnamelab:
+Nome
+diagnosislab:
+Diagnosi
+assaydatelab:
+Data del Test
+Testnamelabel:
+Nome del Test
+dataofbirthdaylab:
+Data di Nascita
+lotlab:
+Numero di Lotto
+idlab:
+Esemplare ID
+sentbylab:
+Medico di Riferimento
+genderlab:
+Sesso
+maleradiobtn:
+Maschio
+femaleradiobtn:
+Femmina
+Operatorlab:
+Operatore
+Testcodelabel:
+Codice del Test
+measurementbtn:
+Leggere
+methodnamelab:
+Nome del Metodo
+Paramaternumberlabel:
+Numero di Parametri
+namelab:
+Nomi dei Parametri
+cancelbtn:
+Annulla
+nextbtn:
+Avanti
+savebtn:
+Avanti
+Methodsettingentitynamelab:
+Nome del Parametro
+cvaluelinelab:
+Tipo del Test
+valuelab:
+Valore di Taglio
+Methodsettingentityfromlabel:
+Da
+Methodsettingentitytolabel:
+A
+saveresultvalue:
+Salva
+deleteresultvalue:
+Cancellare
+shutertimelab:
+Media
+Readytimelab:
+Tempo di Incubazione
+settingtoolStripMenuItem:
+Impostazioni
+sourceSettingToolStripMenuItem:
+Sorgente Video
+cameraToolStripMenuItem:
+Impostazioni della Telecamera
+sensitiveSettingToolStripMenuItem:
+Rapporto Segnale
+shutter:
+Ottenere Immagine
+setzonebtn:
+Impostazioni Zona
+settingdetectsectoindeletebtn:
+Rimuovere Ultima
+setttingdetectsectiondeleteallbtn:
+Cancella Tutto
+upbtn:
+Su
+leftbtn:
+Sinistra
+downbtn:
+Destra
+rightbtn:
+Gi¨´
+settingdetectsectionneededlabel:
+Numero di Zone
+save:
+Salva
+Settingsensitiveinputsensitivelabel:
+Rapporto Segnale
+Settingsensitivetestbtn:
+Eseguire
+Settingsensitivefinishbtn:
+Confermare
+Videoinputlabel:
+Adattatore Video
+resolutionlabel:
+Risoluzione
+SettingsensitiveIncreasevaluebtn:
+Aumentare
+Settingsensitivedecreasebtn:
+Diminuire

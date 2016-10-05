@@ -1,0 +1,156 @@
+brightnesslabel:
+brightness
+contrastlabel:
+contrast
+saturationlabel:
+saturation
+selectlanguagelabel:
+Setting Language
+Languagefinishbtn:
+Finish
+Controlzoneentitysizelable:
+size
+controlradiobtn:
+control
+testtradiobtn:
+test
+contorlzoneentityfinsihbtn:
+finish
+fileToolStripMenuItem:
+File
+loadImageToolStripMenuItem:
+Load Image
+createQRcodeToolStripMenuItem:
+Create QRcode
+analyseQRcodeToolStripMenuItem:
+Read QRcode
+exitToolStripMenuItem:
+Exit
+settingToolStripMenuItem:
+Setting
+methodToolStripMenuItem:
+Method
+addMethodToolStripMenuItem:
+Add Method
+deleteMethodToolStripMenuItem:
+Delete Method
+editMethodToolStripMenuItem:
+Edit Method
+languageToolStripMenuItem:
+Language
+chooseLanguageToolStripMenuItem:
+Choose language
+patientfilelab:
+Patient file No.
+lastnamelab:
+Last name
+middlenamelab:
+Middle name
+firstnamelab:
+First name
+diagnosislab:
+Diagnosis
+assaydatelab:
+Assay date
+Testnamelabel:
+Test Name
+dataofbirthdaylab:
+Date of birth
+lotlab:
+LOT
+idlab:
+Specimen ID
+sentbylab:
+Referring Doctor
+genderlab:
+Gender
+maleradiobtn:
+male
+femaleradiobtn:
+female
+Operatorlab:
+Operator
+Testcodelabel:
+Test Code
+measurementbtn:
+Scan
+methodnamelab:
+Method Name
+Paramaternumberlabel:
+Number of Paramaters
+namelab:
+Paramaters Names
+cancelbtn:
+cancel
+nextbtn:
+Next
+savebtn:
+Next
+Methodsettingentitynamelab:
+Paramater Name
+cvaluelinelab:
+Type of Test
+valuelab:
+Cut-off
+MethodSettingEneityControllinelabel:
+Control line
+MethodSettingEntityTestlinelabel:
+Test line
+rangesettingbtn:
+Range setting
+Methodsettingentityfromlabel:
+From
+Methodsettingentitytolabel:
+to
+saveresultvalue:
+save
+deleteresultvalue:
+delete
+shutertimelab:
+Average
+Readytimelab:
+Incubation time
+settingtoolStripMenuItem:
+Setting
+sourceSettingToolStripMenuItem:
+Camera Source
+cameraToolStripMenuItem:
+Camera setting
+sensitiveSettingToolStripMenuItem:
+Signal Noise
+shutter:
+Obtain Image
+setzonebtn:
+Zone Setting
+settingdetectsectoindeletebtn:
+Remove Recent
+setttingdetectsectiondeleteallbtn:
+Clear All
+Settingdetectsectioncopybtn:
+copy
+upbtn:
+up
+leftbtn:
+left
+downbtn:
+down
+rightbtn:
+right
+settingdetectsectionneededlabel:
+Numbers of Zones
+save:
+Save
+Settingsensitiveinputsensitivelabel:
+Signal Noise
+Settingsensitivetestbtn:
+Run
+Settingsensitivefinishbtn:
+Confirm
+Videoinputlabel:
+Camera Source
+resolutionlabel:
+Resolution
+SettingsensitiveIncreasevaluebtn:
+Increase
+Settingsensitivedecreasebtn:
+decrease
